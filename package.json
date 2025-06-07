@@ -1,0 +1,19 @@
+{
+  "name": "repro-sass-embedded-protobuf-export-issue",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "sass-embedded": "1.89.1"
+  },
+  "overrides": {
+    "@bufbuild/protobuf": "2.4.0"
+  }
+}
